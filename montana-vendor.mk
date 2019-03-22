@@ -41,6 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/etc/firmware/emmc_ffu_15_RX1BMB.fw:system/etc/firmware/emmc_ffu_15_RX1BMB.fw \
     vendor/motorola/montana/proprietary/etc/firmware/synaptics-inx-s3603r-17042001-27111d-montana.tdat:system/etc/firmware/synaptics-inx-s3603r-17042001-27111d-montana.tdat \
     vendor/motorola/montana/proprietary/etc/firmware/synaptics-tianma-s3603r-17041102-27111d-montana.tdat:system/etc/firmware/synaptics-tianma-s3603r-17041102-27111d-montana.tdat \
+    vendor/motorola/montana/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/motorola/montana/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/motorola/montana/proprietary/lib/libbabysit.so:system/lib/libbabysit.so \
     vendor/motorola/montana/proprietary/lib/libcce-socketjni.so:system/lib/libcce-socketjni.so \
