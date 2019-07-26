@@ -34,6 +34,16 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/motorola/montana/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     vendor/motorola/montana/proprietary/etc/firmware/a540_gpmu.fw2:system/etc/firmware/a540_gpmu.fw2 \
+    vendor/motorola/montana/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/motorola/montana/proprietary/etc/firmware/cpp_firmware_v1_12_0.fw:system/etc/firmware/cpp_firmware_v1_12_0.fw \
+    vendor/motorola/montana/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/motorola/montana/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/motorola/montana/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/motorola/montana/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/motorola/montana/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/motorola/montana/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
+    vendor/motorola/montana/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/motorola/montana/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/motorola/montana/proprietary/etc/firmware/emmc_ffu_15_RC14MB.fw:system/etc/firmware/emmc_ffu_15_RC14MB.fw \
     vendor/motorola/montana/proprietary/etc/firmware/emmc_ffu_15_RC1BMB.fw:system/etc/firmware/emmc_ffu_15_RC1BMB.fw \
     vendor/motorola/montana/proprietary/etc/firmware/emmc_ffu_15_RE1BMB.fw:system/etc/firmware/emmc_ffu_15_RE1BMB.fw \
