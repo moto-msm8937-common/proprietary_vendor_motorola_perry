@@ -44,6 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/motorola/montana/proprietary/lib/libbabysit.so:system/lib/libbabysit.so \
     vendor/motorola/montana/proprietary/lib/libcce-socketjni.so:system/lib/libcce-socketjni.so \
+    vendor/motorola/montana/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
     vendor/motorola/montana/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
     vendor/motorola/montana/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
     vendor/motorola/montana/proprietary/lib/libdtvhal.so:system/lib/libdtvhal.so \
