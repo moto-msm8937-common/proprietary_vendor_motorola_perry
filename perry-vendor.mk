@@ -40,8 +40,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/etc/firmware/opalum.tx.ext.config.1:system/etc/firmware/opalum.tx.ext.config.1 \
     vendor/motorola/perry/proprietary/etc/firmware/opalum.tx.ext.config.2:system/etc/firmware/opalum.tx.ext.config.2 \
     vendor/motorola/perry/proprietary/etc/firmware/opalum.tx.ext.config.3:system/etc/firmware/opalum.tx.ext.config.3 \
-    vendor/motorola/perry/proprietary/etc/firmware/synaptics-inx-s3603r-17042001-27111d-perry.tdat:system/etc/firmware/synaptics-inx-s3603r-17042001-27111d-perry.tdat \
-    vendor/motorola/perry/proprietary/etc/firmware/synaptics-tianma-s3603r-17041102-27111d-perry.tdat:system/etc/firmware/synaptics-tianma-s3603r-17041102-27111d-perry.tdat \
+    vendor/motorola/perry/proprietary/etc/firmware/synaptics-ofilm-s3603r-17030201-2701E5-perry.tdat:system/etc/firmware/synaptics-ofilm-s3603r-17030201-2701E5-perry.tdat \
+    vendor/motorola/perry/proprietary/etc/firmware/synaptics-tianma-s3603r-17030802-27030E-perry.tdat:system/etc/firmware/synaptics-tianma-s3603r-17030802-27030E-perry.tdat \
     vendor/motorola/perry/proprietary/lib/libbabysit.so:system/lib/libbabysit.so \
     vendor/motorola/perry/proprietary/lib/libcce-socketjni.so:system/lib/libcce-socketjni.so \
     vendor/motorola/perry/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
