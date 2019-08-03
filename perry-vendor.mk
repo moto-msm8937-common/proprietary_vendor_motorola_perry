@@ -571,7 +571,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/lib64/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib64/egl/libRBGLESv1_CM_adreno.so \
     vendor/motorola/perry/proprietary/vendor/lib64/egl/libRBGLESv2_adreno.so:system/vendor/lib64/egl/libRBGLESv2_adreno.so \
     vendor/motorola/perry/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
-    vendor/motorola/perry/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so
+    vendor/motorola/perry/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
+    vendor/motorola/perry/proprietary/vendor/lib64/libdiag_system.so:system/vendor/lib64/libdiag_system.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libspl.so:system/vendor/lib/libspl.so \
+    vendor/motorola/perry/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
+    vendor/motorola/perry/proprietary/vendor/lib64/libspl.so:system/vendor/lib64/libspl.so
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.sensorscalibrate-V1.0-java \
