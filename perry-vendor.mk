@@ -52,9 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
     vendor/motorola/perry/proprietary/lib/libdtvhal.so:system/lib/libdtvhal.so \
     vendor/motorola/perry/proprietary/lib/libdtvtuner.so:system/lib/libdtvtuner.so \
-    vendor/motorola/perry/proprietary/lib/libets_dclient.so:system/lib/libets_dclient.so \
-    vendor/motorola/perry/proprietary/lib/libets_fp.so:system/lib/libets_fp.so \
-    vendor/motorola/perry/proprietary/lib/libets_teeclient.so:system/lib/libets_teeclient.so \
     vendor/motorola/perry/proprietary/lib/libfamily_photo.so:system/lib/libfamily_photo.so \
     vendor/motorola/perry/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
     vendor/motorola/perry/proprietary/lib/libjscore.so:system/lib/libjscore.so \
@@ -76,8 +73,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/lib/libzxingcpp.so:system/lib/libzxingcpp.so \
     vendor/motorola/perry/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:system/lib/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/motorola/perry/proprietary/lib64/vendor.qti.hardware.tui_comm@1.0.so:system/lib64/vendor.qti.hardware.tui_comm@1.0.so \
-    vendor/motorola/perry/proprietary/vendor/bin/etsd:system/vendor/bin/etsd \
-    vendor/motorola/perry/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice:system/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice \
+    vendor/motorola/perry/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets:system/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets \
     vendor/motorola/perry/proprietary/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service:system/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service \
     vendor/motorola/perry/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:system/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
     vendor/motorola/perry/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
@@ -90,11 +86,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:system/vendor/etc/acdbdata/Hdmi_cal.acdb \
     vendor/motorola/perry/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:system/vendor/etc/acdbdata/Headset_cal.acdb \
     vendor/motorola/perry/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:system/vendor/etc/acdbdata/Speaker_cal.acdb \
-    vendor/motorola/perry/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:system/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
+    vendor/motorola/perry/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets.rc:system/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets.rc \
     vendor/motorola/perry/proprietary/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc:system/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc \
     vendor/motorola/perry/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:system/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/motorola/perry/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
-    vendor/motorola/perry/proprietary/vendor/lib/com.fingerprints.extension@1.0_vendor.so:system/vendor/lib/com.fingerprints.extension@1.0_vendor.so \
     vendor/motorola/perry/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/motorola/perry/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/motorola/perry/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
@@ -117,7 +112,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:system/vendor/lib/egl/libRBGLESv2_adreno.so \
     vendor/motorola/perry/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:system/vendor/lib/egl/libRBGLESv2_adreno.so \
     vendor/motorola/perry/proprietary/vendor/lib/hw/camera.msm8937.so:system/vendor/lib/hw/camera.msm8937.so \
-    vendor/motorola/perry/proprietary/vendor/lib/hw/fingerprint.msm8937.so:system/vendor/lib/hw/fingerprint.msm8937.so \
     vendor/motorola/perry/proprietary/vendor/lib/hw/gatekeeper.msm8937.so:system/vendor/lib/hw/gatekeeper.msm8937.so \
     vendor/motorola/perry/proprietary/vendor/lib/hw/keystore.msm8937.so:system/vendor/lib/hw/keystore.msm8937.so \
     vendor/motorola/perry/proprietary/vendor/lib/hw/motorola.hardware.camera.provider@2.4-impl.so:system/vendor/lib/hw/motorola.hardware.camera.provider@2.4-impl.so \
@@ -182,13 +176,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_video_3a.so:system/vendor/lib/libchromatix_s5k4h8_zsl_video_3a.so \
     vendor/motorola/perry/proprietary/vendor/lib/libdiag_system.so:system/vendor/lib/libdiag_system.so \
     vendor/motorola/perry/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libflash_aw3641.so:system/vendor/lib/libflash_aw3641.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libets_fp_et5.so:system/vendor/lib/libets_fp_et5.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libets_teeclient.so:system/vendor/lib/libets_teeclient.so \
     vendor/motorola/perry/proprietary/vendor/lib/libflash_aw3641.so:system/vendor/lib/libflash_aw3641.so \
     vendor/motorola/perry/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/motorola/perry/proprietary/vendor/lib/libflash_sky81298.so:system/vendor/lib/libflash_sky81298.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libflash_sky81298.so:system/vendor/lib/libflash_sky81298.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libflash_wd3100.so:system/vendor/lib/libflash_wd3100.so \
     vendor/motorola/perry/proprietary/vendor/lib/libflash_wd3100.so:system/vendor/lib/libflash_wd3100.so \
     vendor/motorola/perry/proprietary/vendor/lib/libiio.so:system/vendor/lib/libiio.so \
     vendor/motorola/perry/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
@@ -348,6 +340,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/lib/sensors.iio.so:system/vendor/lib/sensors.iio.so \
     vendor/motorola/perry/proprietary/vendor/lib/sensors.rp.so:system/vendor/lib/sensors.rp.so \
     vendor/motorola/perry/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
+    vendor/motorola/perry/proprietary/vendor/lib/vendor.egistec.hardware.fingerprint@2.0_vendor.so:system/vendor/lib/vendor.egistec.hardware.fingerprint@2.0_vendor.so \
     vendor/motorola/perry/proprietary/vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so:system/vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so \
     vendor/motorola/perry/proprietary/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so \
     vendor/motorola/perry/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
@@ -365,6 +358,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/lib64/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib64/egl/libRBGLESv1_CM_adreno.so \
     vendor/motorola/perry/proprietary/vendor/lib64/egl/libRBGLESv2_adreno.so:system/vendor/lib64/egl/libRBGLESv2_adreno.so \
     vendor/motorola/perry/proprietary/vendor/lib64/libdiag_system.so:system/vendor/lib64/libdiag_system.so \
+    vendor/motorola/perry/proprietary/vendor/lib64/libets_fp_et5.so:system/vendor/lib64/libets_fp_et5.so \
+    vendor/motorola/perry/proprietary/vendor/lib64/libets_teeclient.so:system/vendor/lib64/libets_teeclient.so \
     vendor/motorola/perry/proprietary/vendor/lib64/libiio.so:system/vendor/lib64/libiio.so \
     vendor/motorola/perry/proprietary/vendor/lib64/libqmi_cci_system.so:system/vendor/lib64/libqmi_cci_system.so \
     vendor/motorola/perry/proprietary/vendor/lib64/libsc-a3xx.so:system/vendor/lib64/libsc-a3xx.so \
@@ -378,10 +373,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/lib64/sensors.iio.so:system/vendor/lib64/sensors.iio.so \
     vendor/motorola/perry/proprietary/vendor/lib64/sensors.rp.so:system/vendor/lib64/sensors.rp.so \
     vendor/motorola/perry/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
+    vendor/motorola/perry/proprietary/vendor/lib64/vendor.egistec.hardware.fingerprint@2.0_vendor.so:system/vendor/lib64/vendor.egistec.hardware.fingerprint@2.0_vendor.so \
     vendor/motorola/perry/proprietary/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:system/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so \
     vendor/motorola/perry/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so
 
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.sensorscalibrate-V1.0-java \
-    com.fingerprints.extension
+    vendor.qti.hardware.sensorscalibrate-V1.0-java
 
