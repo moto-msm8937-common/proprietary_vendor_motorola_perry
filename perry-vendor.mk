@@ -358,8 +358,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/lib64/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib64/egl/libRBGLESv1_CM_adreno.so \
     vendor/motorola/perry/proprietary/vendor/lib64/egl/libRBGLESv2_adreno.so:system/vendor/lib64/egl/libRBGLESv2_adreno.so \
     vendor/motorola/perry/proprietary/vendor/lib64/libdiag_system.so:system/vendor/lib64/libdiag_system.so \
-    vendor/motorola/perry/proprietary/vendor/lib64/libets_fp_et5.so:system/vendor/lib64/libets_fp_et5.so \
-    vendor/motorola/perry/proprietary/vendor/lib64/libets_teeclient.so:system/vendor/lib64/libets_teeclient.so \
     vendor/motorola/perry/proprietary/vendor/lib64/libiio.so:system/vendor/lib64/libiio.so \
     vendor/motorola/perry/proprietary/vendor/lib64/libqmi_cci_system.so:system/vendor/lib64/libqmi_cci_system.so \
     vendor/motorola/perry/proprietary/vendor/lib64/libsc-a3xx.so:system/vendor/lib64/libsc-a3xx.so \
@@ -373,7 +371,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/lib64/sensors.iio.so:system/vendor/lib64/sensors.iio.so \
     vendor/motorola/perry/proprietary/vendor/lib64/sensors.rp.so:system/vendor/lib64/sensors.rp.so \
     vendor/motorola/perry/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
-    vendor/motorola/perry/proprietary/vendor/lib64/vendor.egistec.hardware.fingerprint@2.0_vendor.so:system/vendor/lib64/vendor.egistec.hardware.fingerprint@2.0_vendor.so \
     vendor/motorola/perry/proprietary/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:system/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so \
     vendor/motorola/perry/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so
 
