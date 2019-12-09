@@ -16,9 +16,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/perry/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
 	vendor/motorola/perry/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
 	vendor/motorola/perry/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
-	vendor/motorola/perry/proprietary/lib/libets_dclient.so:system/lib/libets_dclient.so \
-	vendor/motorola/perry/proprietary/lib/libets_fp.so:system/lib/libets_fp.so \
-	vendor/motorola/perry/proprietary/lib/libets_teeclient.so:system/lib/libets_teeclient.so \
 	vendor/motorola/perry/proprietary/lib/libfamily_photo.so:system/lib/libfamily_photo.so \
 	vendor/motorola/perry/proprietary/lib/libjscore.so:system/lib/libjscore.so \
 	vendor/motorola/perry/proprietary/lib/libjustshoot.so:system/lib/libjustshoot.so \
@@ -356,7 +353,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/lib64/sensors.rp.so:system/vendor/lib64/sensors.rp.so \
     vendor/motorola/perry/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/motorola/perry/proprietary/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:system/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so \
-    vendor/motorola/perry/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so
+    vendor/motorola/perry/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libguy.so:system/vendor/lib/libguy.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libuy.so:system/vendor/lib/libuy.so
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.sensorscalibrate-V1.0-java
