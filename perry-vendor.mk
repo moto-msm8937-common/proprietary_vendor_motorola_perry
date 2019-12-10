@@ -154,7 +154,7 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/perry/proprietary/vendor/lib/libmmcamera_ppeiscore.so:system/vendor/lib/libmmcamera_ppeiscore.so \
 	vendor/motorola/perry/proprietary/vendor/lib/libmmcamera_quadracfa.so:system/vendor/lib/libmmcamera_quadracfa.so \
 	vendor/motorola/perry/proprietary/vendor/lib/libmmcamera_s5k3p3_eeprom.so:system/vendor/lib/libmmcamera_s5k3p3_eeprom.so \
-	vendor/motorola/perry/proprietary/vendor/lib/libmmcamera_s5k3p3.so:system/vendor/lib/libmmcamera_s5k3p3.s
+	vendor/motorola/perry/proprietary/vendor/lib/libmmcamera_s5k3p3.so:system/vendor/lib/libmmcamera_s5k3p3.s \
 	vendor/motorola/perry/proprietary/vendor/lib/libmmcamera_s5k4h8_eeprom.so:system/vendor/lib/libmmcamera_s5k4h8_eeprom.so \
 	vendor/motorola/perry/proprietary/vendor/lib/libmmcamera_s5k4h8.so:system/vendor/lib/libmmcamera_s5k4h8.so \
 	vendor/motorola/perry/proprietary/vendor/lib/libmmcamera_sony_rumba_eeprom.so:system/vendor/lib/libmmcamera_sony_rumba_eeprom.so \
